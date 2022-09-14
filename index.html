@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="first-container">
+            <img src="assets/img/laptop.png" alt="">
+            <h3>Laptop HP</h3>
+            <div class="select-container">
+
+
+
+                <input id="input-quantity" type="text">
+                <select name="" id="select-color">
+                    <option value="blue">Azul</option>
+                    <option value="black">Negro</option>
+                    <option value="green">Verde</option>
+                </select>
+            </div>
+
+            <h3>Valor: $400.000 <span id="price"></span> </h3>
+            <div class="div-button">
+                <button id="btn-total" class="button"><h4>Calcular total</h4></button>
+            </div>    
+        </div>
+        <div class="second-container">
+            <p id="total">Total: <span id="total-price">0</span></p>
+            <p>Cantidad: <span id="total-quantity">0</span></p>
+            <div id="color" class="color"></div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
